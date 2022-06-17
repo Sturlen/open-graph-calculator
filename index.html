@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/_app/assets/pages/index.svelte-9ab4911e.css">
+	<link rel="modulepreload" href="/_app/start-d3d86eb0.js">
+	<link rel="modulepreload" href="/_app/chunks/index-b994bed7.js">
+	<link rel="modulepreload" href="/_app/chunks/index-b93e17bc.js">
+	<link rel="modulepreload" href="/_app/layout.svelte-d313f80b.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-6359932c.js">
+	</head>
+	<body>
+		<div>
+
+
+<h1>Calculator</h1>
+
+<main class="svelte-1lpl1am"><section id="input"><h2>Input</h2>
+		<form><input type="text" value="">
+			<input type="submit" value="Submit"></form>
+		<div><p>Math Variables</p>
+	<ul class="svelte-1ccsf7o"><span>x:</span>
+			<input type="number" value="1">
+			<br><span>y:</span>
+			<input type="number" value="2">
+			<br>
+		<form><span>New Var:</span>
+			<input type="text" value="">
+			<input type="number" value="0">
+			<button type="submit">Add</button></form>
+
+		<br></ul>
+</div></section>
+	<section id="result"><h2>Result</h2>
+		<div id="resultbox" class="svelte-1lpl1am"><span></span></div>
+		<section><h2>Tokens</h2>
+	<div class="debug"><div class="debug svelte-1wxmgvu">
+</div>
+</div>
+		<div id="exp" class="svelte-142e9ot">
+</div></section></section>
+</main>
+
+
+		<script type="module" data-hydrate="uiodq5">
+		import { start } from "/_app/start-d3d86eb0.js";
+		start({
+			target: document.querySelector('[data-hydrate="uiodq5"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/layout.svelte-d313f80b.js"),
+						import("/_app/pages/index.svelte-6359932c.js")
+				],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script></div>
+	</body>
+</html>
